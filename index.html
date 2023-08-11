@@ -1,0 +1,24 @@
+      <html>
+      <head>
+      <title>yousefchat</title>
+      <link rel="stylesheet" href="style.css">
+      </head>
+      <body>
+         <h1>hello in yousef h chat</h1> 
+         <h2>this is ai speak and write the answer </h>
+            <div class="container">
+            <form onsubmit="
+            event.preventDefault();
+            conversationUserAdd(document.getElementById('input-text').value);
+            openai_test();
+            " >
+            <input type="text" id="input-text"  placeholder="say something...">
+               <button id="submit-button">send</button>
+               </form>
+               <div id="chat-container"></div>
+          <button onclick="speak();"> init audio </button>
+  </div>  
+<img src="https://static.vecteezy.com/system/resources/previews/005/337/802/original/icon-symbol-chat-outline-illustration-free-vector.jpg" alt="">
+      <script src="script.js"></script>
+      </body>
+      </html>
